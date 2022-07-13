@@ -50,3 +50,7 @@ variable "google_compute_subnetwork_name" {
 variable "google_compute_subnetwork_id" {
   type = string
 }
+
+variable "instance_type" {
+  type = string
+}
